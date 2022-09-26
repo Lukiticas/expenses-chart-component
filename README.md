@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Lukiticas/expenses-chart-component/blob/master/design/desktop-preview.jpg)
 
 ### Links
 
