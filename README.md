@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [check my solution on FEM](https://www.frontendmentor.io/solutions/expenses-chart-with-themes-and-dynamically-rendering-3-wWs9of2ThD)
+- Live Site URL: [let's see it!](https://lukas-expenses-chart.netlify.app/)
 
 ### Built with
 
