@@ -89,8 +89,12 @@ select {
   
 }
 
+html, body  {
+  overflow: hidden;
+}
+
 body {
-  overflow-x: hidden;
+  width: 100vw;
   background-color: ${(props) => props.theme.colors.bg600};
 }
 
