@@ -17,6 +17,10 @@ const ChartBarItem = styled.div<ChartProps>`
   width: 100%;
   height: ${(props) => props.height}%;
 
+  animation: growUp 800ms ease;
+  animation-fill-mode: forwards;
+  transform-origin: bottom;
+
   border-radius: 0.5rem;
   background-color: ${(props) =>
     props.isActive ? props.theme.colors.acc900 : props.theme.colors.acc800};
@@ -29,6 +33,15 @@ const ChartBarItem = styled.div<ChartProps>`
     filter: brightness(1.3);
     & > div {
       opacity: 1;
+    }
+  }
+
+  @keyframes growUp {
+    from {
+      transform: scaleY(0);
+    }
+    to {
+      transform: scaleY(1);
     }
   }
 `;
